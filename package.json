@@ -1,0 +1,52 @@
+{
+  "name": "react-webpack-starter",
+  "version": "1.0.0",
+  "description": "React Webpack Starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf build",
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "server": "node server.js",
+    "lint": "eslint . --ext .js --ext .jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opagani/react-webpack-starter.git"
+  },
+  "keywords": [
+    "react",
+    "flux",
+    "svg"
+  ],
+  "author": "Oscar Pagani",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.33",
+    "babel-eslint": "^4.1.4",
+    "babel-loader": "^5.3.3",
+    "css-loader": "^0.21.0",
+    "eslint": "^1.8.0",
+    "eslint-loader": "^1.1.1",
+    "eslint-plugin-react": "^3.6.3",
+    "express": "^4.13.3",
+    "file-loader": "^0.8.4",
+    "html-webpack-plugin": "^1.6.2",
+    "node-libs-browser": "^0.5.3",
+    "node-uuid": "^1.4.3",
+    "react-hot-loader": "^1.3.0",
+    "rimraf": "^2.4.3",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.3",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-dev-server": "^1.12.1",
+    "webpack-hot-middleware": "^2.4.1",
+    "webpack-merge": "^0.2.0"
+  }
+}
