@@ -10,7 +10,7 @@ You'll need the latest stable version of [Node.js](http://nodejs.org/) installed
 
 ```
 git clone https://github.com/opagani/react-webpack-starter.git
-cd rreact-webpack-starter
+cd react-webpack-starter
 npm install
 npm start
 ```
